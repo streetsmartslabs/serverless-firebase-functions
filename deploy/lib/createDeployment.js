@@ -92,6 +92,10 @@ module.exports = {
                             functionPackageJson.engines = {
                                 node: '10'
                             };
+                        case 'nodejs12':
+                            functionPackageJson.engines = {
+                                node: '12'
+                            };
                     }
                 }
                 functionPackageJson.dependencies['firebase-functions'] = dependencies['firebase-functions'];
